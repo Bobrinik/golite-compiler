@@ -1,0 +1,14 @@
+lex.yy.c
+y.tab.c
+y.tab.h
+src/minic
+src/golitec
+
+golite.output
+golite.tab.c
+
+
+src/GPATH
+src/GRTAGS
+src/GTAGS
+
