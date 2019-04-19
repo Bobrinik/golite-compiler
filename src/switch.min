@@ -1,0 +1,13 @@
+package main
+
+func main(){
+	switch i {
+	 case 0: fmt.Println("0")
+	 case 1: fmt.Println("1")
+	}
+
+	type TreeNode struct {
+		left, right *TreeNode
+		value Comparable
+	}
+}
