@@ -33,6 +33,11 @@ make install
 ## Running
 
 ```shell
+# Run tests located in Programs directory
+./test.sh 
+```
+
+```shell
 # Run scanner on go string
 printf "package main\n func main(){ println(\"Hello\")\n }" | ./golite scan
 
@@ -55,9 +60,4 @@ printf "package main\n func main(){ println(\"Hello\")\n }" | ./golite scan
 
 - I found that Emacs has the best support for writing C code. I wish I knew about this back in the time when I took operating systems.
   - [Excellent tutorial on setting up Emacs for C](https://tuhdo.github.io/c-ide.html)
-
-```shell
-# Run tests located in Programs directory
-./test.sh 
-```
-
+- [`valgrind`](http://valgrind.org/docs/manual/quick-start.html) very useful when debugging segfault errors. Just follow installation instructions from their website.
